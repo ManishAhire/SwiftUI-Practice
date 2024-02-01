@@ -49,6 +49,20 @@ struct TabBarView: View {
                     Text("Message")
                 }
                 .tag(4)
+            
+            MessageView()
+                .tabItem {
+                    Image(systemName: "message")
+                    Text("Message")
+                }
+                .tag(5)
+            
+            MessageView()
+                .tabItem {
+                    Image(systemName: "message")
+                    Text("Message")
+                }
+                .tag(6)
         }
         .tint(.red)
     }
