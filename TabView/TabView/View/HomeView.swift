@@ -9,8 +9,13 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Home View")
-            .font(.system(size: 40, weight: .bold, design: .monospaced))
+        
+        NavigationView {
+            NavigationLink("Navigate") {
+                HomeNaivgateView()
+            }
+        }
+      
     }
 }
 
