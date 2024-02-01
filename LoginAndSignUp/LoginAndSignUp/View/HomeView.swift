@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @EnvironmentObject var loginVM: LoginVM
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            Text("User Name: \(loginVM.userEmail)")
+                .font(.headline)
+            
+                .toolbar {
+                    NavigationLink("Log Out", destination: LoginView())
+                }
+            
+        }
+        .padding()
+        .navigationTitle("User Details")
+        .navigationBarTitleDisplayMode(.large)
+        .navigationBarBackButtonHidden(true)
+        
     }
 }
 

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+class User : ObservableObject {
+    
+    @Published var email: String = String()
+}

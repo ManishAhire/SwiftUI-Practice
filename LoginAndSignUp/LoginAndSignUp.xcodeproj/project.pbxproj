@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		1148AC872B696EDA008D751E /* LoginAndSignUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148AC862B696EDA008D751E /* LoginAndSignUpApp.swift */; };
-		1148AC892B696EDA008D751E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148AC882B696EDA008D751E /* ContentView.swift */; };
 		1148AC8B2B696EDC008D751E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1148AC8A2B696EDC008D751E /* Assets.xcassets */; };
 		1148AC8E2B696EDC008D751E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1148AC8D2B696EDC008D751E /* Preview Assets.xcassets */; };
+		1148AC972B696F01008D751E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148AC962B696F01008D751E /* LoginView.swift */; };
+		1148AC992B69718B008D751E /* RegisterUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148AC982B69718B008D751E /* RegisterUserView.swift */; };
+		1148AC9B2B697198008D751E /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148AC9A2B697198008D751E /* ForgotPassword.swift */; };
+		1148AC9D2B6971A8008D751E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148AC9C2B6971A8008D751E /* HomeView.swift */; };
+		1148ACA12B697A26008D751E /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148ACA02B697A26008D751E /* LoginVM.swift */; };
+		1148ACA42B697D53008D751E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148ACA32B697D53008D751E /* User.swift */; };
+		1148ACA62B6A4B58008D751E /* LoginValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148ACA52B6A4B58008D751E /* LoginValidation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1148AC832B696EDA008D751E /* LoginAndSignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginAndSignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1148AC862B696EDA008D751E /* LoginAndSignUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndSignUpApp.swift; sourceTree = "<group>"; };
-		1148AC882B696EDA008D751E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1148AC8A2B696EDC008D751E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1148AC8D2B696EDC008D751E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1148AC962B696F01008D751E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1148AC982B69718B008D751E /* RegisterUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserView.swift; sourceTree = "<group>"; };
+		1148AC9A2B697198008D751E /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		1148AC9C2B6971A8008D751E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1148ACA02B697A26008D751E /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		1148ACA32B697D53008D751E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1148ACA52B6A4B58008D751E /* LoginValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,10 @@
 		1148AC852B696EDA008D751E /* LoginAndSignUp */ = {
 			isa = PBXGroup;
 			children = (
+				1148ACA22B697D4A008D751E /* Model */,
+				1148AC9E2B697A07008D751E /* ViewModel */,
+				1148AC942B696EE9008D751E /* View */,
 				1148AC862B696EDA008D751E /* LoginAndSignUpApp.swift */,
-				1148AC882B696EDA008D751E /* ContentView.swift */,
 				1148AC8A2B696EDC008D751E /* Assets.xcassets */,
 				1148AC8C2B696EDC008D751E /* Preview Content */,
 			);
@@ -65,6 +79,42 @@
 				1148AC8D2B696EDC008D751E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1148AC942B696EE9008D751E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1148AC962B696F01008D751E /* LoginView.swift */,
+				1148AC982B69718B008D751E /* RegisterUserView.swift */,
+				1148AC9A2B697198008D751E /* ForgotPassword.swift */,
+				1148AC9C2B6971A8008D751E /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1148AC9E2B697A07008D751E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1148AC9F2B697A0F008D751E /* Login */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1148AC9F2B697A0F008D751E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1148ACA02B697A26008D751E /* LoginVM.swift */,
+				1148ACA52B6A4B58008D751E /* LoginValidation.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1148ACA22B697D4A008D751E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1148ACA32B697D53008D751E /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1148AC892B696EDA008D751E /* ContentView.swift in Sources */,
+				1148AC992B69718B008D751E /* RegisterUserView.swift in Sources */,
+				1148AC972B696F01008D751E /* LoginView.swift in Sources */,
+				1148ACA12B697A26008D751E /* LoginVM.swift in Sources */,
 				1148AC872B696EDA008D751E /* LoginAndSignUpApp.swift in Sources */,
+				1148ACA62B6A4B58008D751E /* LoginValidation.swift in Sources */,
+				1148AC9D2B6971A8008D751E /* HomeView.swift in Sources */,
+				1148AC9B2B697198008D751E /* ForgotPassword.swift in Sources */,
+				1148ACA42B697D53008D751E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
