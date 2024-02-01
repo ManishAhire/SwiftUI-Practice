@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1148ACE32B6B9FA7008D751E /* TabViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148ACE22B6B9FA7008D751E /* TabViewApp.swift */; };
-		1148ACE52B6B9FA7008D751E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148ACE42B6B9FA7008D751E /* ContentView.swift */; };
 		1148ACE72B6B9FA9008D751E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1148ACE62B6B9FA9008D751E /* Assets.xcassets */; };
 		1148ACEA2B6B9FA9008D751E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1148ACE92B6B9FA9008D751E /* Preview Assets.xcassets */; };
 		1148ACF22B6B9FFD008D751E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148ACF12B6B9FFD008D751E /* HomeView.swift */; };
@@ -22,7 +21,6 @@
 /* Begin PBXFileReference section */
 		1148ACDF2B6B9FA7008D751E /* TabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1148ACE22B6B9FA7008D751E /* TabViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewApp.swift; sourceTree = "<group>"; };
-		1148ACE42B6B9FA7008D751E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1148ACE62B6B9FA9008D751E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1148ACE92B6B9FA9008D751E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1148ACF12B6B9FFD008D751E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 			children = (
 				1148ACF02B6B9FEC008D751E /* View */,
 				1148ACE22B6B9FA7008D751E /* TabViewApp.swift */,
-				1148ACE42B6B9FA7008D751E /* ContentView.swift */,
 				1148ACE62B6B9FA9008D751E /* Assets.xcassets */,
 				1148ACE82B6B9FA9008D751E /* Preview Content */,
 			);
@@ -167,7 +164,6 @@
 				1148ACF22B6B9FFD008D751E /* HomeView.swift in Sources */,
 				1148ACFC2B6BA0B5008D751E /* TabBarView.swift in Sources */,
 				1148ACF82B6BA020008D751E /* NotesView.swift in Sources */,
-				1148ACE52B6B9FA7008D751E /* ContentView.swift in Sources */,
 				1148ACF62B6BA015008D751E /* PlayView.swift in Sources */,
 				1148ACFA2B6BA029008D751E /* MessageView.swift in Sources */,
 				1148ACE32B6B9FA7008D751E /* TabViewApp.swift in Sources */,

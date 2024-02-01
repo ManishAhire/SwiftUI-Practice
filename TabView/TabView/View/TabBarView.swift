@@ -9,9 +9,11 @@ import SwiftUI
 
 struct TabBarView: View {
     
+    @State var defaultView : Int = 2
+    
     var body: some View {
         
-        TabView {
+        TabView(selection: $defaultView) {
             
             HomeView()
                 .tabItem {
