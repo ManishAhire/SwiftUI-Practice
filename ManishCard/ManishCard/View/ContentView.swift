@@ -39,7 +39,7 @@ struct ContentView: View {
                 
                 ContactDetails(image: "phone.fill", text: "+91 8793838402")
                 
-                ContactDetails(image: "phone.fill", text: "+91 8793838402")
+                ContactDetails(image: "envelope.fill", text: "ahiremanishb@gmail.com")
             }
         }
     }
@@ -48,26 +48,5 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-    }
-}
-
-struct ContactDetails: View {
-    
-    let image: String
-    let text: String
-    
-    var body: some View {
-        RoundedRectangle(cornerRadius: 25)
-            .frame(height: 50)
-            .foregroundColor(.white)
-            .overlay(
-                HStack {
-                    Image(systemName: image)
-                        .foregroundColor(.green)
-                    
-                    Text(text)
-                }
-            )
-            .padding()
     }
 }

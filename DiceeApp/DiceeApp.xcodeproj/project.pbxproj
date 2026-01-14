@@ -7,27 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		112E0C0F2F179859007CA4DF /* ManishCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E0C0E2F179859007CA4DF /* ManishCardApp.swift */; };
-		112E0C112F179859007CA4DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E0C102F179859007CA4DF /* ContentView.swift */; };
-		112E0C132F17985D007CA4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112E0C122F17985D007CA4DF /* Assets.xcassets */; };
-		112E0C162F17985D007CA4DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112E0C152F17985D007CA4DF /* Preview Assets.xcassets */; };
-		112E0C1F2F179A75007CA4DF /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 112E0C1E2F179A75007CA4DF /* Pacifico-Regular.ttf */; };
-		112E0C232F17A278007CA4DF /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E0C222F17A278007CA4DF /* ContactDetails.swift */; };
+		112E0C312F17A55E007CA4DF /* DiceeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E0C302F17A55E007CA4DF /* DiceeAppApp.swift */; };
+		112E0C332F17A55E007CA4DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E0C322F17A55E007CA4DF /* ContentView.swift */; };
+		112E0C352F17A560007CA4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112E0C342F17A560007CA4DF /* Assets.xcassets */; };
+		112E0C382F17A560007CA4DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112E0C372F17A560007CA4DF /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		112E0C0B2F179859007CA4DF /* ManishCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManishCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		112E0C0E2F179859007CA4DF /* ManishCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManishCardApp.swift; sourceTree = "<group>"; };
-		112E0C102F179859007CA4DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		112E0C122F17985D007CA4DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		112E0C152F17985D007CA4DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		112E0C1E2F179A75007CA4DF /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
-		112E0C202F179B9F007CA4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		112E0C222F17A278007CA4DF /* ContactDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
+		112E0C2D2F17A55E007CA4DF /* DiceeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		112E0C302F17A55E007CA4DF /* DiceeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeAppApp.swift; sourceTree = "<group>"; };
+		112E0C322F17A55E007CA4DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		112E0C342F17A560007CA4DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		112E0C372F17A560007CA4DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		112E0C082F179859007CA4DF /* Frameworks */ = {
+		112E0C2A2F17A55E007CA4DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,104 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		112E0C022F179859007CA4DF = {
+		112E0C242F17A55E007CA4DF = {
 			isa = PBXGroup;
 			children = (
-				112E0C0D2F179859007CA4DF /* ManishCard */,
-				112E0C0C2F179859007CA4DF /* Products */,
+				112E0C2F2F17A55E007CA4DF /* DiceeApp */,
+				112E0C2E2F17A55E007CA4DF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		112E0C0C2F179859007CA4DF /* Products */ = {
+		112E0C2E2F17A55E007CA4DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				112E0C0B2F179859007CA4DF /* ManishCard.app */,
+				112E0C2D2F17A55E007CA4DF /* DiceeApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		112E0C0D2F179859007CA4DF /* ManishCard */ = {
+		112E0C2F2F17A55E007CA4DF /* DiceeApp */ = {
 			isa = PBXGroup;
 			children = (
-				112E0C202F179B9F007CA4DF /* Info.plist */,
-				112E0C1C2F179A3F007CA4DF /* Resources */,
-				112E0C0E2F179859007CA4DF /* ManishCardApp.swift */,
-				112E0C212F17A24E007CA4DF /* View */,
-				112E0C142F17985D007CA4DF /* Preview Content */,
+				112E0C302F17A55E007CA4DF /* DiceeAppApp.swift */,
+				112E0C322F17A55E007CA4DF /* ContentView.swift */,
+				112E0C342F17A560007CA4DF /* Assets.xcassets */,
+				112E0C362F17A560007CA4DF /* Preview Content */,
 			);
-			path = ManishCard;
+			path = DiceeApp;
 			sourceTree = "<group>";
 		};
-		112E0C142F17985D007CA4DF /* Preview Content */ = {
+		112E0C362F17A560007CA4DF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				112E0C152F17985D007CA4DF /* Preview Assets.xcassets */,
+				112E0C372F17A560007CA4DF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		112E0C1C2F179A3F007CA4DF /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				112E0C1D2F179A54007CA4DF /* Fonts */,
-				112E0C122F17985D007CA4DF /* Assets.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		112E0C1D2F179A54007CA4DF /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				112E0C1E2F179A75007CA4DF /* Pacifico-Regular.ttf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		112E0C212F17A24E007CA4DF /* View */ = {
-			isa = PBXGroup;
-			children = (
-				112E0C102F179859007CA4DF /* ContentView.swift */,
-				112E0C222F17A278007CA4DF /* ContactDetails.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		112E0C0A2F179859007CA4DF /* ManishCard */ = {
+		112E0C2C2F17A55E007CA4DF /* DiceeApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 112E0C192F17985D007CA4DF /* Build configuration list for PBXNativeTarget "ManishCard" */;
+			buildConfigurationList = 112E0C3B2F17A560007CA4DF /* Build configuration list for PBXNativeTarget "DiceeApp" */;
 			buildPhases = (
-				112E0C072F179859007CA4DF /* Sources */,
-				112E0C082F179859007CA4DF /* Frameworks */,
-				112E0C092F179859007CA4DF /* Resources */,
+				112E0C292F17A55E007CA4DF /* Sources */,
+				112E0C2A2F17A55E007CA4DF /* Frameworks */,
+				112E0C2B2F17A55E007CA4DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ManishCard;
-			productName = ManishCard;
-			productReference = 112E0C0B2F179859007CA4DF /* ManishCard.app */;
+			name = DiceeApp;
+			productName = DiceeApp;
+			productReference = 112E0C2D2F17A55E007CA4DF /* DiceeApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		112E0C032F179859007CA4DF /* Project object */ = {
+		112E0C252F17A55E007CA4DF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					112E0C0A2F179859007CA4DF = {
+					112E0C2C2F17A55E007CA4DF = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 112E0C062F179859007CA4DF /* Build configuration list for PBXProject "ManishCard" */;
+			buildConfigurationList = 112E0C282F17A55E007CA4DF /* Build configuration list for PBXProject "DiceeApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,44 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 112E0C022F179859007CA4DF;
-			productRefGroup = 112E0C0C2F179859007CA4DF /* Products */;
+			mainGroup = 112E0C242F17A55E007CA4DF;
+			productRefGroup = 112E0C2E2F17A55E007CA4DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				112E0C0A2F179859007CA4DF /* ManishCard */,
+				112E0C2C2F17A55E007CA4DF /* DiceeApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		112E0C092F179859007CA4DF /* Resources */ = {
+		112E0C2B2F17A55E007CA4DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112E0C1F2F179A75007CA4DF /* Pacifico-Regular.ttf in Resources */,
-				112E0C162F17985D007CA4DF /* Preview Assets.xcassets in Resources */,
-				112E0C132F17985D007CA4DF /* Assets.xcassets in Resources */,
+				112E0C382F17A560007CA4DF /* Preview Assets.xcassets in Resources */,
+				112E0C352F17A560007CA4DF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		112E0C072F179859007CA4DF /* Sources */ = {
+		112E0C292F17A55E007CA4DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112E0C112F179859007CA4DF /* ContentView.swift in Sources */,
-				112E0C232F17A278007CA4DF /* ContactDetails.swift in Sources */,
-				112E0C0F2F179859007CA4DF /* ManishCardApp.swift in Sources */,
+				112E0C332F17A55E007CA4DF /* ContentView.swift in Sources */,
+				112E0C312F17A55E007CA4DF /* DiceeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		112E0C172F17985D007CA4DF /* Debug */ = {
+		112E0C392F17A560007CA4DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		112E0C182F17985D007CA4DF /* Release */ = {
+		112E0C3A2F17A560007CA4DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,18 +259,17 @@
 			};
 			name = Release;
 		};
-		112E0C1A2F17985D007CA4DF /* Debug */ = {
+		112E0C3C2F17A560007CA4DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ManishCard/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DiceeApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9F49W83KP5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ManishCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -315,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = manish.ManishCard;
+				PRODUCT_BUNDLE_IDENTIFIER = manish.DiceeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,18 +288,17 @@
 			};
 			name = Debug;
 		};
-		112E0C1B2F17985D007CA4DF /* Release */ = {
+		112E0C3D2F17A560007CA4DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ManishCard/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DiceeApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9F49W83KP5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ManishCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -345,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = manish.ManishCard;
+				PRODUCT_BUNDLE_IDENTIFIER = manish.DiceeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -356,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		112E0C062F179859007CA4DF /* Build configuration list for PBXProject "ManishCard" */ = {
+		112E0C282F17A55E007CA4DF /* Build configuration list for PBXProject "DiceeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				112E0C172F17985D007CA4DF /* Debug */,
-				112E0C182F17985D007CA4DF /* Release */,
+				112E0C392F17A560007CA4DF /* Debug */,
+				112E0C3A2F17A560007CA4DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		112E0C192F17985D007CA4DF /* Build configuration list for PBXNativeTarget "ManishCard" */ = {
+		112E0C3B2F17A560007CA4DF /* Build configuration list for PBXNativeTarget "DiceeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				112E0C1A2F17985D007CA4DF /* Debug */,
-				112E0C1B2F17985D007CA4DF /* Release */,
+				112E0C3C2F17A560007CA4DF /* Debug */,
+				112E0C3D2F17A560007CA4DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 112E0C032F179859007CA4DF /* Project object */;
+	rootObject = 112E0C252F17A55E007CA4DF /* Project object */;
 }
