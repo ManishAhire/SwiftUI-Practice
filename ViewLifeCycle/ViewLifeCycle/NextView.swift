@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct NextView: View {
+    
+    init() {
+        print("NextView => init called")
+    }
     var body: some View {
         Text("Hello, Next View!")
             .onAppear() {
