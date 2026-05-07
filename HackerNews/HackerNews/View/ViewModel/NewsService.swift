@@ -9,8 +9,13 @@ import Foundation
 
 // MARK: - Usage example (domain layer — NOT inside NetworkClient)
 
+
+protocol NewsServiceProtocol {
+    func fetchFrontPage() async throws -> [Post]
+}
+
 // Service owns the URL and the model — network client stays generic
-actor NewsService {
+actor NewsService: NewsServiceProtocol {
     
     static let shared = NewsService()
     private let client: NetworkClient

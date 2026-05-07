@@ -14,9 +14,9 @@ final class NewsViewModel: ObservableObject {
     @Published private(set) var isLoading = false
     @Published private(set) var error: Error?
     
-    private let service : NewsService
+    private let service : NewsServiceProtocol
     
-    init(service: NewsService = .shared) {
+    init(service: NewsServiceProtocol = NewsService.shared) {
         self.service = service
     }
     
