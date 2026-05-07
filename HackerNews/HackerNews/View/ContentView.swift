@@ -15,7 +15,6 @@ struct ContentView: View {
         
         NavigationStack {
             
-            
             List(posts) { post in
                 NavigationLink(destination: DetailView(url: .constant(post.url))) {
                     HStack {
@@ -23,21 +22,16 @@ struct ContentView: View {
                         Text(post.title)
                     }
                 }
-               
             }
             .navigationTitle("Hacker News")
         }
         .task {
-            
             do {
-                posts = try await HTTPUtility.shared.fetchAllNews()
-                print(posts)
+                posts = try await NewsService.shared.fetchFrontPage()
             } catch (let error) {
                 print(error)
             }
-            
         }
-        
     }
 }
 

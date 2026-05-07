@@ -8,7 +8,7 @@
 import Foundation
 
 struct News: Decodable {
-    let hits: [Post]
+    let posts: [Post]
 }
 
 struct Post: Identifiable, Decodable  {
