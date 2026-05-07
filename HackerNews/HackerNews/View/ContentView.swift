@@ -9,28 +9,37 @@ import SwiftUI
 
 struct ContentView: View {
    
-    @State private var posts: [Post] = []
+   @StateObject private var vm = NewsViewModel()
     
     var body: some View {
         
         NavigationStack {
             
-            List(posts) { post in
-                NavigationLink(destination: DetailView(url: .constant(post.url))) {
-                    HStack {
-                        Text("\(post.points)")
-                        Text(post.title)
+            Group {
+                if vm.isLoading {
+                    ProgressView("Loading...")
+                } else if let error = vm.error {
+                    Label("Error: \(error.localizedDescription)", systemImage: "wifi.slash")
+                } else {
+                    List(vm.posts) { post in
+                        NavigationLink(destination: DetailView(url: .constant(post.url))) {
+                            HStack {
+                                Text("\(post.points)")
+                                    .foregroundStyle(.secondary)
+                                    .monospacedDigit()
+                                Text(post.title)
+                            }
+                        }
                     }
                 }
             }
             .navigationTitle("Hacker News")
         }
         .task {
-            do {
-                posts = try await NewsService.shared.fetchFrontPage()
-            } catch (let error) {
-                print(error)
-            }
+            await vm.load()
+        }
+        .refreshable {
+            await vm.load()
         }
     }
 }
